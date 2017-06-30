@@ -13,6 +13,12 @@
 		6D46FC701F0027D900828167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D46FC6E1F0027D900828167 /* Main.storyboard */; };
 		6D46FC721F0027D900828167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D46FC711F0027D900828167 /* Assets.xcassets */; };
 		6D46FC751F0027D900828167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D46FC731F0027D900828167 /* LaunchScreen.storyboard */; };
+		6D46FC7E1F01550C00828167 /* DSLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC7D1F01550C00828167 /* DSLayoutManager.m */; };
+		6D46FC811F01C68200828167 /* DSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC801F01C68200828167 /* DSBlock.m */; };
+		6D46FC841F01C6AA00828167 /* DSBlockCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC831F01C6AA00828167 /* DSBlockCellInfo.m */; };
+		6D46FC8A1F0294A900828167 /* DSSuperCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC891F0294A900828167 /* DSSuperCollectionView.m */; };
+		6D46FC8D1F03B5AA00828167 /* DSImagesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC8C1F03B5AA00828167 /* DSImagesLoader.m */; };
+		6D46FC901F055CA900828167 /* DSBlocksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46FC8F1F055CA900828167 /* DSBlocksInspector.m */; };
 		91A3851B32A44B61E89246FC /* libPods-SuperCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDEF80304812C7131267812 /* libPods-SuperCollectionView.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,18 @@
 		6D46FC711F0027D900828167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D46FC741F0027D900828167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D46FC761F0027D900828167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D46FC7C1F01550C00828167 /* DSLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLayoutManager.h; sourceTree = "<group>"; };
+		6D46FC7D1F01550C00828167 /* DSLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLayoutManager.m; sourceTree = "<group>"; };
+		6D46FC7F1F01C68200828167 /* DSBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBlock.h; sourceTree = "<group>"; };
+		6D46FC801F01C68200828167 /* DSBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBlock.m; sourceTree = "<group>"; };
+		6D46FC821F01C6AA00828167 /* DSBlockCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBlockCellInfo.h; sourceTree = "<group>"; };
+		6D46FC831F01C6AA00828167 /* DSBlockCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBlockCellInfo.m; sourceTree = "<group>"; };
+		6D46FC881F0294A900828167 /* DSSuperCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSuperCollectionView.h; sourceTree = "<group>"; };
+		6D46FC891F0294A900828167 /* DSSuperCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSuperCollectionView.m; sourceTree = "<group>"; };
+		6D46FC8B1F03B5AA00828167 /* DSImagesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSImagesLoader.h; sourceTree = "<group>"; };
+		6D46FC8C1F03B5AA00828167 /* DSImagesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSImagesLoader.m; sourceTree = "<group>"; };
+		6D46FC8E1F055CA900828167 /* DSBlocksInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBlocksInspector.h; sourceTree = "<group>"; };
+		6D46FC8F1F055CA900828167 /* DSBlocksInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBlocksInspector.m; sourceTree = "<group>"; };
 		9DB10F65B7F04BF9C3F84625 /* Pods-SuperCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperCollectionView/Pods-SuperCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		AE757F6A4EB7747B93249C5B /* Pods-SuperCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperCollectionView/Pods-SuperCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		EBDEF80304812C7131267812 /* libPods-SuperCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,10 +83,22 @@
 		6D46FC641F0027D900828167 /* SuperCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				6D46FC8B1F03B5AA00828167 /* DSImagesLoader.h */,
+				6D46FC8C1F03B5AA00828167 /* DSImagesLoader.m */,
+				6D46FC881F0294A900828167 /* DSSuperCollectionView.h */,
+				6D46FC891F0294A900828167 /* DSSuperCollectionView.m */,
+				6D46FC821F01C6AA00828167 /* DSBlockCellInfo.h */,
+				6D46FC831F01C6AA00828167 /* DSBlockCellInfo.m */,
+				6D46FC7F1F01C68200828167 /* DSBlock.h */,
+				6D46FC801F01C68200828167 /* DSBlock.m */,
 				6D46FC681F0027D900828167 /* AppDelegate.h */,
 				6D46FC691F0027D900828167 /* AppDelegate.m */,
 				6D46FC6B1F0027D900828167 /* ViewController.h */,
 				6D46FC6C1F0027D900828167 /* ViewController.m */,
+				6D46FC7C1F01550C00828167 /* DSLayoutManager.h */,
+				6D46FC7D1F01550C00828167 /* DSLayoutManager.m */,
+				6D46FC8E1F055CA900828167 /* DSBlocksInspector.h */,
+				6D46FC8F1F055CA900828167 /* DSBlocksInspector.m */,
 				6D46FC6E1F0027D900828167 /* Main.storyboard */,
 				6D46FC711F0027D900828167 /* Assets.xcassets */,
 				6D46FC731F0027D900828167 /* LaunchScreen.storyboard */,
@@ -226,9 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D46FC7E1F01550C00828167 /* DSLayoutManager.m in Sources */,
+				6D46FC8A1F0294A900828167 /* DSSuperCollectionView.m in Sources */,
 				6D46FC6D1F0027D900828167 /* ViewController.m in Sources */,
+				6D46FC841F01C6AA00828167 /* DSBlockCellInfo.m in Sources */,
 				6D46FC6A1F0027D900828167 /* AppDelegate.m in Sources */,
 				6D46FC671F0027D900828167 /* main.m in Sources */,
+				6D46FC811F01C68200828167 /* DSBlock.m in Sources */,
+				6D46FC901F055CA900828167 /* DSBlocksInspector.m in Sources */,
+				6D46FC8D1F03B5AA00828167 /* DSImagesLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

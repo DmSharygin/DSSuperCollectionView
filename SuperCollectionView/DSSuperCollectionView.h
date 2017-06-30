@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DSLayoutManager.h"
 
 @interface DSSuperCollectionView : UIView
+
+@property (strong, nonatomic) DSLayoutManager *layoutManager;
+
+-(instancetype)initWithFrame:(CGRect)frame andURLStrings:(NSArray *) URLStrings;
+
+-(instancetype)initWith:(int)count randomImageURLStringsAndFrame:(CGRect)frame;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DSSuperCollectionView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    CGRect collectionViewFrame = CGRectMake(0, 20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) / 2);
+    
+    DSSuperCollectionView *collectionView = [[DSSuperCollectionView alloc]initWith:8 randomImageURLStringsAndFrame:collectionViewFrame];
+    collectionView.layoutManager.chosenBlockTypes = DSLayoutManagerUsedBlockTwoPortrait | DSLayoutManagerUsedBlockTwoSquare;
+    
+    [self.view addSubview:collectionView];
+    
 }
 
 

@@ -10,4 +10,11 @@
 
 @interface DSBlocksInspector : NSObject
 
+@property (strong, nonatomic) NSMutableArray *uncomletedBlocks;
+@property (strong, nonatomic) NSMutableArray *completedBlocks;
+@property (strong, nonatomic) NSMutableDictionary *blocksCounter;
+
+- (NSArray *) blocksFromInfoCells:(NSArray *) infoCells;
+
+
 @end
